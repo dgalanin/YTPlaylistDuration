@@ -48,7 +48,7 @@ async function getYtPlaylistLength(url) {
     }
 
 
-    return moment.utc(videos_duration_milliseconds).format('hh:mm:ss');
+    return moment.utc(videos_duration_milliseconds).format('HH:mm:ss');
 
 }
 
